@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "zdtstepmotor.h": "c",
+        "cstdint": "c",
+        "motor_def.h": "c"
+    }
+}
