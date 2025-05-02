@@ -12,6 +12,7 @@
 "origin\usb_otg.o"
 "origin\stm32f4xx_it.o"
 "origin\stm32f4xx_hal_msp.o"
+"origin\mainwork.o"
 "origin\stm32f4xx_hal_adc.o"
 "origin\stm32f4xx_hal_adc_ex.o"
 "origin\stm32f4xx_ll_adc.o"

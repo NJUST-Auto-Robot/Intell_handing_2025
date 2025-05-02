@@ -2,6 +2,8 @@
     "files.associations": {
         "zdtstepmotor.h": "c",
         "cstdint": "c",
-        "motor_def.h": "c"
+        "motor_def.h": "c",
+        "mainwork.h": "c",
+        "mecanum.h": "c"
     }
 }

@@ -32,6 +32,7 @@
 /* USER CODE BEGIN Includes */
 #include "dm_j4310.h"
 #include "ZDTstepmotor.h"
+#include "mainwork.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -118,12 +119,13 @@ int main(void)
   MX_USART6_UART_Init();
   MX_USB_OTG_FS_PCD_Init();
   /* USER CODE BEGIN 2 */
-
-	
 	HAL_GPIO_WritePin(GPIOD,GPIO_PIN_14,0);
 	HAL_GPIO_WritePin(GPIOD,GPIO_PIN_15,0);
-	HAL_GPIO_WritePin(GPIOE,GPIO_PIN_10,0);
-uint8_t data[8]={1,2,3,4,5,6,7,8};		
+	
+	main_work();
+	
+//uint8_t data[8]={1,2,3,4,5,6,7,8};		
+
 //		
 //		  DM_4310_Register(&hcan2, 0x01, 0x00, pos_vel_mode);
 //			DM_4310_Register(&hcan2, 0x02, 0x03, pos_vel_mode);

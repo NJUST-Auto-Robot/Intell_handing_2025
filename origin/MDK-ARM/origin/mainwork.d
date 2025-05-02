@@ -1,5 +1,5 @@
-origin/main.o: ..\Core\Src\main.c ..\Core\Inc\main.h \
-  ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h \
+origin/mainwork.o: ..\Core\Src\mainwork.c ..\Core\Inc\mainwork.h \
+  ..\Core\Inc\main.h ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h \
   ..\Core\Inc\stm32f4xx_hal_conf.h \
   ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h \
   ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h \
@@ -47,8 +47,5 @@ origin/main.o: ..\Core\Src\main.c ..\Core\Inc\main.h \
   ..\Middlewares\Third_Party\FreeRTOS\Source\include\queue.h \
   ..\Middlewares\Third_Party\FreeRTOS\Source\include\semphr.h \
   ..\Middlewares\Third_Party\FreeRTOS\Source\include\event_groups.h \
-  ..\Core\Inc\adc.h ..\Core\Inc\can.h ..\Core\Inc\i2c.h \
-  ..\Core\Inc\spi.h ..\Core\Inc\tim.h ..\Core\Inc\usart.h \
-  ..\Core\Inc\usb_otg.h ..\Core\Inc\gpio.h ..\mcu_bsp\Motor\dm_j4310.h \
-  ..\mcu_bsp\Motor\motor_def.h ..\mcu_bsp\can\bsp_can.h \
-  ..\mcu_bsp\Motor\ZDTstepmotor.h ..\Core\Inc\mainwork.h
+  ..\mcu_bsp\Motor\ZDTstepmotor.h ..\mcu_bsp\Motor\motor_def.h \
+  ..\mcu_bsp\chassis\Mecanum.h
